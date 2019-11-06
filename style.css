@@ -1,3 +1,105 @@
+.logoHide {
+  display: none; }
 
+#unique {
+  display: none; }
+
+.bla {
+  display: none; }
+
+.rules, .container {
+  margin-top: 2em; }
+
+.card {
+  position: relative; }
+  .card .card-up {
+    padding-top: 10em;
+    background-image: url("https://picsum.photos/330/300");
+    position: relative; }
+  .card .blab {
+    position: absolute;
+    left: 32%;
+    bottom: 46%; }
+  .card .card-body {
+    margin-top: 2em;
+    position: relative; }
+
+.pic {
+  width: 55%;
+  height: 20%; }
+
+.pic2 {
+  width: 39%;
+  height: 20%; }
+
+@media screen and (max-width: 767px) {
+  .card {
+    position: relative; }
+    .card .card-up {
+      padding-top: 10em;
+      background-image: url("https://picsum.photos/330/300");
+      position: relative; }
+    .card .blab {
+      position: absolute;
+      left: 32%;
+      bottom: 46%; }
+    .card .card-body {
+      margin-top: 2em;
+      position: relative; }
+
+  .pic {
+    max-width: 100%; }
+
+  .pic2 {
+    max-width: 100%; }
+
+  i {
+    font-size: 2rem;
+    display: block; }
+
+  .logoHide {
+    display: block; }
+
+  #unique {
+    display: block; }
+
+  .none {
+    display: none; } }
+@media screen and (max-width: 1024px) and (min-width: 767px) {
+  .card {
+    position: relative; }
+    .card .card-up {
+      padding-top: 10em;
+      background-image: url("https://picsum.photos/700/700");
+      position: relative; }
+    .card .blab {
+      position: absolute;
+      left: 37%;
+      bottom: 39%;
+      width: 25%; }
+    .card .card-body {
+      margin-top: 5em;
+      position: relative; }
+
+  .pic {
+    width: 55%;
+    height: 20%; }
+
+  .pic2 {
+    width: 39%;
+    height: 20%; }
+
+  .logoHide {
+    display: block; }
+
+  #unique {
+    display: block; }
+
+  .none {
+    display: none; }
+
+  i {
+    font-size: 2rem;
+    display: block; } }
 
 /*# sourceMappingURL=style.css.map */
